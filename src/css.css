@@ -1,11 +1,12 @@
 h1 { 
-    color:#2B292B; 
+    color:#403C34; 
     font-family: 'Cinzel Decorative', cursive; 
     font-size: 50px; 
     text-align: center; 
     text-shadow: 1px 1px 2px #2B292B; 
+    margin-top: 80px;
 }
-.topnav{
+.topNav{
     background-color: #AC8435;
     display: flex;
     flex-direction: row;
@@ -39,11 +40,74 @@ h4 {
     right: 30%;
 }
 
-#delivery:hover{
+#delivery:hover, button:hover{
     background-color: #F7F2E9;
     color: #403C34;
 }
-p { 
+
+.main-menu{
+    text-align: right; 
+}
+.name{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Cinzel Decorative', cursive; 
+    color:#403C34;
+    font-size: 27px;
+    margin-right: 70px;
+}
+.ingredients{
+    display: flex;
+    flex-direction: column;
+    color:#725825; 
+    margin-right: 70px;
+    font-size:18px;
+}
+hr{
+   border-color: #AC8435;
+   border-style: solid;
+   margin-left: 60%;
+}
+.restaurantName {
+    position: absolute;
+    top: 30px;
+    left: 15px;
+    text-align: left;
+    color:#403C34;
+}
+
+.about-main {
+    position: absolute;
+    font-family: 'PT Serif', serif; 
+    top: 400px;
+    left: 50%;
+    right: 10%;
+    text-align: left;
+    color:#403C34;
+    text-indent: 50px;
+    text-shadow: 2px 5px 5px #725825;
+    font-weight: 300;
+    background-color: blanchedalmond;
+}
+.contactMotto{
+    top: 18%;
+    left:24%;
+}
+.contact-main {
+    position: absolute;
+    font-family: 'PT Serif', serif; 
+    top: 350px;
+    left: 50%;
+    right: 25%;
+    text-align: left;
+    color:#403C34;
+    text-indent: 50px;
+    text-shadow: 2px 5px 5px #725825;
+    font-size: 15px;
+    font-weight: 300;
+    background-color: blanchedalmond;
+}
+.project { 
     color: #403C34; 
     font-family: 'PT Serif', serif; 
     font-size: 13px; 
