@@ -1,6 +1,6 @@
 import { createHeader } from './topNav';
 import { createMenuPage } from './menuPage';
-import { clear } from './index';
+import { clear } from './clearPage';
 
 function loadingPage() {
     let content = document.getElementById('content');

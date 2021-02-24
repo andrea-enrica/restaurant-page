@@ -2,7 +2,7 @@ import { loadingPage } from './loadingPage';
 import { createMenuPage } from './menuPage';
 import { createAboutPage } from './aboutPage';
 import { createContactPage } from './contactPage';
-
+import { clear } from './clearPage';
 loadingPage();
 
 //Home tab
@@ -31,15 +31,4 @@ let contactBttn = document.getElementById('contact');
 contactBttn.onclick = () => {
     clear();
     createContactPage();
-}
-
-function clear() {
-    let content = document.getElementById('content');
-    let container = document.getElementsByClassName('container')[0];
-    container.remove();
-    content.className = '';
-    let buttons = document.getElementsByTagName('button');
-    for (let i = 0; i < buttons.length; i++) {
-        buttons[i].className = '';
-    }
 }
