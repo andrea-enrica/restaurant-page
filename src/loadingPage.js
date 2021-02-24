@@ -37,7 +37,7 @@ function loadingPage() {
     container.appendChild(deliveryBttn).setAttribute('id', 'delivery');
 
     content.appendChild(container);
-    document.body.style.backgroundImage = "url('/media/Papanas1.jpg')";
+    
 }
 
 export { loadingPage };

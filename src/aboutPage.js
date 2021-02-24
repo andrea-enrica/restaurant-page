@@ -28,6 +28,5 @@ function createAboutPage() {
     aboutContent.appendChild(ourStory);
     
     content.appendChild(container);
-    document.body.style.backgroundImage = "url('/media/Papanas1.jpg')";
 }
 export { createAboutPage };
