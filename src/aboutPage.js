@@ -28,6 +28,6 @@ function createAboutPage() {
     aboutContent.appendChild(ourStory);
     
     content.appendChild(container);
-    document.body.style.backgroundImage = "url('/home/enrica/Documents/work-space/the_odin_project/Javascript/restaurant-page/media/Papanas1.jpg')";
+    document.body.style.backgroundImage = "url('media/Papanas1.jpg')";
 }
 export { createAboutPage };
