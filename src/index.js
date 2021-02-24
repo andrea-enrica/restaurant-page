@@ -18,12 +18,14 @@ menuBttn.onclick = () => {
     clear();
     createMenuPage();
 }
+
 //About tab
 let aboutBttn = document.getElementById('about');
 aboutBttn.onclick = () => {
     clear();
     createAboutPage();
 }
+
 //Contact tab
 let contactBttn = document.getElementById('contact');
 contactBttn.onclick = () => {
