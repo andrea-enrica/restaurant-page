@@ -70,6 +70,6 @@ function createMenuPage() {
     }
 
     content.appendChild(container);
-    document.body.style.backgroundImage = "url('media/Papanas1.jpg')";
+    document.body.style.backgroundImage = "url('/media/Papanas1.jpg')";
 }
 export { createMenuPage };
