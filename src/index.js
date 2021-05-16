@@ -3,32 +3,33 @@ import { createMenuPage } from './menuPage';
 import { createAboutPage } from './aboutPage';
 import { createContactPage } from './contactPage';
 import { clear } from './clearPage';
+
 loadingPage();
 
-//Home tab
-let homeBttn = document.getElementById('home');
+// Home tab
+const homeBttn = document.getElementById('home');
 homeBttn.onclick = () => {
-    clear();
-    loadingPage();
-}
+  clear();
+  loadingPage();
+};
 
-//Menu tab
-let menuBttn = document.getElementById('menu');
+// Menu tab
+const menuBttn = document.getElementById('menu');
 menuBttn.onclick = () => {
-    clear();
-    createMenuPage();
-}
+  clear();
+  createMenuPage();
+};
 
-//About tab
-let aboutBttn = document.getElementById('about');
+// About tab
+const aboutBttn = document.getElementById('about');
 aboutBttn.onclick = () => {
-    clear();
-    createAboutPage();
-}
+  clear();
+  createAboutPage();
+};
 
-//Contact tab
-let contactBttn = document.getElementById('contact');
+// Contact tab
+const contactBttn = document.getElementById('contact');
 contactBttn.onclick = () => {
-    clear();
-    createContactPage();
-}
+  clear();
+  createContactPage();
+};
